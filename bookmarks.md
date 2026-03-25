@@ -1,3 +1,126 @@
+# Tuesday, March 17, 2026
+
+## @coreyhainesco - Marketing Skills v1.4.0: Lead Magnets, Composio Integration, 197 Evals
+> Marketing Skills v1.4.0 is out.
+>
+> What shipped:
+>
+> /lead-magnets — high-converting lead magnet strategy. Format selection, opt-in copy, delivery mechanics, and nurture sequences.
+>
+> Composio integration — one MCP server connects your agent to HubSpot, Salesforce, Meta Ads, LinkedIn Ads, Google Sheets, Slack, Notion, and 500+ more tools. No API key juggling.
+>
+> 197 evals across all 33 skills — automated conversation tests with assertions and boundary coverage. Every skill is now CI-testable.
+>
+> 10 new CLI tools — airops, clay, close, coupler, crossbeam, outreach, pendo, similarweb, supermetrics, zoominfo. 61 total.
+>
+> Free, open source.
+> npx skills add coreyhaines31/marketingskills
+
+- **Tweet:** https://x.com/coreyhainesco/status/2033913061162234103
+- **What:** Major release of the Marketing Skills open-source agent skill pack. Adds lead magnet strategy skill, Composio MCP integration for 500+ marketing tools, 197 automated evals across 33 skills, and 10 new CLI tools (61 total). Install via npx.
+
+## @livingdevops - NVIDIA OpenShell: Infrastructure-Level AI Agent Sandboxing
+> 🔥Breaking: NVIDIA just open-sourced the guardrails AI agents should have had from day one.
+>
+> It's called OpenShell. Announced at GTC yesterday.
+>
+> Your coding agent currently has access to your terminal, files, AWS keys, and network.
+>
+> OpenShell fixes that.
+>
+> What it does:
+> - Filesystem locked at sandbox creation
+> - Network blocked by default.
+> - You whitelist what's allowed
+> - API keys never touch the filesystem. Injected at runtime only
+> - Policies defined in simple YAML
+>
+> One command to sandbox Claude Code, Codex, or Cursor.
+>
+> The architecture runs a full K3s cluster inside a single Docker container.
+> No separate Kubernetes install.
+>
+> Adobe, Atlassian, Cisco, CrowdStrike, Salesforce are already integrating it.
+>
+> Most teams solve agent security at the application layer.
+>
+> OpenShell solves it at the infrastructure layer.
+>
+> GitHub repo link in comments.
+
+- **Tweet:** https://x.com/livingdevops/status/2033845127244825041
+- **What:** NVIDIA open-sourced OpenShell at GTC — infrastructure-level sandboxing for AI coding agents (Claude Code, Codex, Cursor). Locks filesystem, blocks network by default, injects API keys at runtime only, all configured via YAML. Runs K3s inside Docker. Major enterprise adoption already underway.
+
+---
+
+# Thursday, March 19, 2026
+
+## @XRarchitect - Off-Axis Projection Demo with World Labs Splats and Face Tracking
+> Testing off-axis projection demo.
+>
+> Basic scene layout in Blender
+> glb -> detailed splat via World Labs
+> Three.js for engine
+> MediaPipe for face tracking
+>
+> Next step is to add a character you can move around in the environment
+
+- **Tweet:** https://x.com/XRarchitect/status/2034675907898876133
+- **What:** XR demo combining Blender scene layout, World Labs GLB-to-splat conversion, Three.js rendering, and MediaPipe face tracking for off-axis projection. Next step: adding interactive character movement within the environment.
+
+## @PatrickHaede - Superscale Agent: AI-Powered Social Marketing Automation
+> We just mass automated social marketing.
+>
+> Introducing Superscale Agent - the first advanced AI agent for social marketing.
+>
+> What used to take 1000s of hours now takes minutes:
+>
+> → Brainstorm & execute full marketing strategies instantly
+> → Deep-dive competitor & trend reports (connected to the entire web, TikTok trends, Meta Ad Library)
+> → Analyze your own Meta & TikTok ad accounts directly
+> → Generate 100s of ads for TikTok, FB, IG, or Google from a single prompt
+> → Iterate on creatives at insane speed
+> → Build e-commerce store & ad assets on autopilot
+>
+> You give instructions. The agent does the work.
+> Software engineering went agentic. Today, social marketing follows.
+
+- **Tweet:** https://x.com/PatrickHaede/status/2034618702327419330
+- **What:** Launch of Superscale Agent — an AI agent for social marketing that automates strategy brainstorming, competitor analysis, ad generation across TikTok/Meta/Google, and creative iteration. Positions itself as the agentic revolution hitting marketing after software engineering.
+
+---
+
+# Friday, March 20, 2026
+
+## @0xSero - Essential AI/ML Community Leaders and Open-Source Contributors
+> I'm not the only one doing this.
+>
+> - karpathy — best thought leader, Nanochat is the best way to get into training LLMs
+> - steipete — GitHub is a national treasure, Peekaboo, summarize.sh, openclaw, oracle
+> - badlogicgames — Mario's Pi is a staple AI engine, simplest open source agentic loop
+> - TheAhmadOsman — the GPU king, dense educational content around self hosting
+> - sudoingX — pushing the limits of what a single GPU can do
+> - Ex0byt — fundamental in making local inference on massive models possible
+> - alexinexxx — learning GPU kernel programming, real hard worker
+> - gospaceport — hardware economics, most impressive homelabs
+> - alexocheema — founder of Exolabs, pioneering Apple hardware inference
+> - nummanali — CLI tools for LLM subscription budgets, Claude Code alternative models
+> - thdxr — Opencode team, good writer, anti-doomer content
+> - juliarturc — LLM compression science
+> - Teknium — Nous Research & Prime Intellect teams
+> - victormustar — Head of Product for Huggingface
+> - louszbd — Head of community at ZAI, top open weight LLMs
+> - SkylerMiao7 — frontier intelligence on $10k hardware via MiniMax
+> - crystalsssup — building best open weight model, releasing latest research
+>
+> These people are carrying the entire industry and giving us a fighting chance.
+
+- **Tweet:** https://x.com/0xSero/status/2035064089345478658
+- **Link:** https://summarize.sh/
+- **What:** Comprehensive guide to 17 key people driving open-source AI/ML forward — from Karpathy's educational work to hardware pioneers, model compression researchers, and open-weight model builders. A curated who's-who for anyone following the local/open AI movement.
+
+---
+
 # Sunday, January 4, 2026
 
 ## @trq212 - AI alignment and interpretability resources
