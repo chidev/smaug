@@ -271,6 +271,9 @@ After all bookmarks are processed and filed, commit the changes:
 # Get today's date for commit message
 DATE=$(date +"%b %-d")
 
+# Resolve archiveFile from config and expand ~
+ARCHIVE_FILE=$(node -e "const c=require('./smaug.config.json'); console.log(c.archiveFile.replace(/^~/, process.env.HOME || process.env.USERPROFILE))")
+
 # Stage all bookmark-related changes (use archiveFile path from config)
 git add "$ARCHIVE_FILE"  # The archiveFile path from config
 git add knowledge/
